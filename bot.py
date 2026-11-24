@@ -1,4 +1,3 @@
-
 import os
 from fastapi import FastAPI, Request, Header, HTTPException
 from aiogram import Bot, Dispatcher, F
@@ -8,7 +7,7 @@ from aiogram.types import (
     InlineKeyboardMarkup, InlineKeyboardButton
 )
 
-TOKEN = os.getenv("8872988314:AAGkQS8PDLkR9qfLlz3EYPBbOt2IBjUwKAY")
+TOKEN = os.getenv("BOT_TOKEN")
 BASE_URL = os.getenv("BASE_URL", "").rstrip("/")
 SECRET = os.getenv("WEBHOOK_SECRET")
 
