@@ -8,7 +8,7 @@ from aiogram.types import (
     InlineKeyboardMarkup, InlineKeyboardButton
 )
 
-TOKEN = os.getenv("8872988314:AAGkQS8PDLkR9qfLlz3EYPBbOt2IBjUwKAY")
+TOKEN = os.getenv("bot token")
 BASE_URL = os.getenv("BASE_URL", "").rstrip("/")
 SECRET = os.getenv("WEBHOOK_SECRET")
 
